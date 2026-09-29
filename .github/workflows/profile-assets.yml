@@ -20,6 +20,10 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # ==================================================
+      # Checkout repository
+      # ==================================================
+
       - name: Checkout repository
         uses: actions/checkout@v5
 
@@ -42,7 +46,7 @@ jobs:
       - name: Generate contribution calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: dist/metrics-calendar.svg
+          filename: metrics-calendar.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
           user: FrederikSkipper
@@ -56,7 +60,7 @@ jobs:
           output_action: none
 
       # ==================================================
-      # Copy generated assets into repository
+      # Install generated assets
       # ==================================================
 
       - name: Install generated assets
@@ -65,10 +69,11 @@ jobs:
 
           cp dist/github-snake.svg ./github-snake.svg
           cp dist/github-snake-dark.svg ./github-snake-dark.svg
-          cp dist/metrics-calendar.svg ./assets/metrics-calendar.svg
+
+          cp /metrics_renders/metrics-calendar.svg ./assets/metrics-calendar.svg
 
       # ==================================================
-      # Commit generated files
+      # Commit generated assets
       # ==================================================
 
       - name: Commit generated assets
