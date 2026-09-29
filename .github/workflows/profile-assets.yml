@@ -37,7 +37,7 @@ jobs:
             github-snake-dark.svg?palette=github-dark
 
       # ==================================================
-      # Generate Top Languages chart (Public + Private)
+      # Generate Top Languages chart
       # ==================================================
       - name: Generate top languages chart
         uses: lowlighter/metrics@latest
@@ -48,14 +48,25 @@ jobs:
           user: FrederikSkipper
           base: ""
 
-          # Languages plugin configuration
-          plugin_languages: yes
+          plugin_languages: true
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
-          plugin_languages_indepth: yes # Analyzes deep commit history across repos
+          plugin_languages_indepth: false
           plugin_languages_limit: 8
 
           config_theme: dark
+          
+          # Custom Tokyo Night Palette CSS Override
+          style: |
+            :root {
+              --color-calendar-graph-day-bg: #1a1b26;
+              --color-border-default: #24283b;
+              --color-canvas-default: #1a1b26;
+              --color-fg-default: #a9b1d6;
+              --color-accent-fg: #7aa2f7;
+            }
+            .header { color: #7aa2f7 !important; }
+
           output_action: none
 
       # ==================================================
