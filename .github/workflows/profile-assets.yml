@@ -1,9 +1,12 @@
-name: Update Profile Assets
+
+name: Generate Profile Assets
 
 on:
   schedule:
     - cron: "0 0 * * *"
+
   workflow_dispatch:
+
   push:
     branches:
       - main
@@ -14,31 +17,32 @@ permissions:
 jobs:
   generate-assets:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      # --------------------------------------------------
-      # GitHub contribution snake
-      # --------------------------------------------------
+      # ==================================================
+      # Generate GitHub contribution snake
+      # ==================================================
 
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: FrederikSkipper
           outputs: |
-            github-snake.svg
-            github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      # --------------------------------------------------
-      # Real contribution calendar / heatmap
-      # --------------------------------------------------
+      # ==================================================
+      # Generate contribution calendar
+      # ==================================================
 
       - name: Generate contribution calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: assets/metrics-calendar.svg
+          filename: dist/metrics-calendar.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
           user: FrederikSkipper
@@ -51,11 +55,23 @@ jobs:
 
           output_action: none
 
-      # --------------------------------------------------
-      # Commit generated assets
-      # --------------------------------------------------
+      # ==================================================
+      # Copy generated assets into repository
+      # ==================================================
 
-      - name: Commit profile assets
+      - name: Install generated assets
+        run: |
+          mkdir -p assets
+
+          cp dist/github-snake.svg ./github-snake.svg
+          cp dist/github-snake-dark.svg ./github-snake-dark.svg
+          cp dist/metrics-calendar.svg ./assets/metrics-calendar.svg
+
+      # ==================================================
+      # Commit generated files
+      # ==================================================
+
+      - name: Commit generated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -64,6 +80,9 @@ jobs:
           git add github-snake-dark.svg
           git add assets/metrics-calendar.svg
 
-          git diff --cached --quiet || git commit -m "chore: update profile assets"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update profile assets [skip github actions]"
+            git push
+          fi
