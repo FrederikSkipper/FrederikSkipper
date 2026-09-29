@@ -48,16 +48,15 @@ jobs:
           user: FrederikSkipper
           base: ""
 
+          # Languages plugin configuration
           plugin_languages: true
-          plugin_languages_sections: details # Seperate bars per language
+          plugin_languages_sections: details
           plugin_languages_details: percentage
           plugin_languages_indepth: false
           plugin_languages_limit: 6
 
-          config_theme: dark
-
-          # Custom Tokyo Night Palette CSS Override
-          style: |
+          # Tokyo Night custom styling via valid extras_css key
+          extras_css: |
             :root {
               --color-calendar-graph-day-bg: #1a1b26;
               --color-border-default: #24283b;
