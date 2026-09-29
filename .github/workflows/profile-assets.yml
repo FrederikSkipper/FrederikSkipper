@@ -22,14 +22,12 @@ jobs:
       # ==================================================
       # Checkout repository
       # ==================================================
-
       - name: Checkout repository
         uses: actions/checkout@v5
 
       # ==================================================
       # Generate GitHub contribution snake
       # ==================================================
-
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -39,15 +37,44 @@ jobs:
             github-snake-dark.svg?palette=github-dark
 
       # ==================================================
+      # Generate Top Languages chart (Public + Private)
+      # ==================================================
+      - name: Generate top languages chart
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: FrederikSkipper
+          base: ""
+
+          # Languages plugin configuration
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_indepth: yes # Analyzes deep commit history across repos
+          plugin_languages_limit: 8
+
+          config_theme: dark
+          output_action: none
+
+      # ==================================================
+      # Copy generated assets
+      # ==================================================
+      - name: Install generated assets
+        run: |
+          mkdir -p assets
+          cp /metrics_renders/metrics-languages.svg ./assets/metrics-languages.svg
+
+      # ==================================================
       # Commit generated assets
       # ==================================================
-
       - name: Commit generated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add github-snake.svg github-snake-dark.svg
+          git add github-snake.svg github-snake-dark.svg assets/metrics-languages.svg
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
