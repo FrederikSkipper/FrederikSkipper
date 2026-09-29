@@ -37,46 +37,6 @@ jobs:
             github-snake-dark.svg?palette=github-dark
 
       # ==================================================
-      # Generate Top Languages chart
-      # ==================================================
-      - name: Generate top languages chart
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-languages.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          user: FrederikSkipper
-          base: ""
-
-          # Languages plugin configuration
-          plugin_languages: true
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_indepth: false
-          plugin_languages_limit: 8
-
-          # Tokyo Night custom styling via extras_css
-          extras_css: |
-            :root {
-              --color-calendar-graph-day-bg: #1a1b26;
-              --color-border-default: #24283b;
-              --color-canvas-default: #1a1b26;
-              --color-fg-default: #a9b1d6;
-              --color-accent-fg: #7aa2f7;
-            }
-            .header { color: #7aa2f7 !important; }
-
-          output_action: none
-
-      # ==================================================
-      # Copy generated assets
-      # ==================================================
-      - name: Install generated assets
-        run: |
-          mkdir -p assets
-          cp /metrics_renders/metrics-languages.svg ./assets/metrics-languages.svg
-
-      # ==================================================
       # Commit generated assets
       # ==================================================
       - name: Commit generated assets
@@ -84,7 +44,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add github-snake.svg github-snake-dark.svg assets/metrics-languages.svg
+          git add github-snake.svg github-snake-dark.svg
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
