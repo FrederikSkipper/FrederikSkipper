@@ -262,41 +262,8 @@ A growing collection of Java solutions focused on strengthening problem-solving 
 
 <!-- ========================================================= -->
 
-## `05 / CONTRIBUTION HEATMAP`
 
-<div align="center">
-
-<picture>
-
-<source
- media="(prefers-color-scheme: dark)"
- srcset="./github-snake-dark.svg"
-/>
-
-<source
- media="(prefers-color-scheme: light)"
- srcset="./github-snake.svg"
-/>
-
-<img
- src="./github-snake-dark.svg"
- width="96%"
- alt="GitHub contribution snake animation"
-/>
-
-</picture>
-
-</div>
-
----
-
-<!-- ========================================================= -->
-
-<!-- 08 — ENGINEERING DIRECTION                                -->
-
-<!-- ========================================================= -->
-
-## `06 / ENGINEERING DIRECTION`
+## `05 / ENGINEERING DIRECTION`
 
 <div align="center">
 
@@ -358,6 +325,41 @@ Scrum |
 
 </tr>
 </table>
+
+---
+
+<!-- ========================================================= -->
+
+<!-- 08 — ENGINEERING DIRECTION                                -->
+
+<!-- ========================================================= -->
+
+
+## `06 / CONTRIBUTION HEATMAP`
+
+<div align="center">
+
+<picture>
+
+<source
+ media="(prefers-color-scheme: dark)"
+ srcset="./github-snake-dark.svg"
+/>
+
+<source
+ media="(prefers-color-scheme: light)"
+ srcset="./github-snake.svg"
+/>
+
+<img
+ src="./github-snake-dark.svg"
+ width="96%"
+ alt="GitHub contribution snake animation"
+/>
+
+</picture>
+
+</div>
 
 ---
 
