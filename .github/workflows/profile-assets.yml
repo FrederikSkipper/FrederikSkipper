@@ -1,4 +1,3 @@
-```yaml
 name: Update Profile Assets
 
 on:
@@ -68,4 +67,3 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update profile assets"
 
           git push
-```
