@@ -158,6 +158,7 @@ My main direction is:
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" alt="JSON" />
   <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
+  <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
 </p>
 
 <h3><code> PACKAGE MANAGERS </code></h3>
