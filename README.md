@@ -52,7 +52,7 @@ alt="Profile highlights"
 
 <td width="55%" valign="top">
 
-### `> WHO AM I`
+### `> WHO AM I?`
 
 Software Engineering student at **Aalborg University** with a strong interest in backend engineering, object-oriented programming, system development and database systems.
 
@@ -105,18 +105,81 @@ My main direction is:
 
 ## `02 / ENGINEERING STACK`
 
-<div align="center">
 
-</div>
+<div align="left">
 
-<br>
+<h3><code> ACADEMIA </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=white" alt="Overleaf" />
+  <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" />
+</p>
 
-<div align="center">
+<h3><code> DATABASE </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+</p>
 
-<img
-src="https://skillicons.dev/icons?i=java,cs,spring,dotnet,postgres,mongodb,docker,github,vscode,postman,maven,npm&theme=dark"
-alt="Technology stack icons"
-/>
+<h3><code> DESIGN </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+</p>
+
+<h3><code> FRAMEWORKS AND LIBERIES </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/axios-671ddf?style=for-the-badge&logo=axios&logoColor=white" alt="Axios" />
+  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate" />
+  <img src="https://img.shields.io/badge/Lombok-BC2525?style=for-the-badge&logo=java&logoColor=white" alt="Lombok" />
+  <img src="https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=.net&logoColor=white" alt="Entity Framework" />
+</p>
+
+
+<h3><code> QUALITY ASSURANCE </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
+  <img src="https://img.shields.io/badge/Junit5-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit5" />
+  <img src="https://img.shields.io/badge/Mockito-C21325?style=for-the-badge&logo=java&logoColor=white" alt="Mockito" />
+</p>
+
+<h3><code> DEVOPS & TOOLS </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+</p>
+
+<h3><code> LANGUAGES </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" alt="JSON" />
+  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
+</p>
+
+<h3><code> PACKAGE MANAGERS </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet" />
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  <img src="https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Apache Maven" />
+</p>
+
+
+<h3><code> LINTERS </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
+  <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" alt="Prettier" />
+</p>
+
+<h3><code> WORKFLOW PLATFORMS </code></h3>
+<p>
+  <img src="https://img.shields.io/badge/Github%20Actions-282a2e?style=for-the-badge&logo=githubactions&logoColor=367cfe" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" alt="Jira" />
+  <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello" />
+</p>
 
 </div>
 
