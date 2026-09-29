@@ -33,7 +33,7 @@ alt="Software engineering introduction"
 
 <!-- ========================================================= -->
 
-## `01 / SYSTEM PROFILE`
+## `01 / PROFILE`
 
 <div align="center">
 
@@ -262,7 +262,7 @@ A growing collection of Java solutions focused on strengthening problem-solving 
 
 <!-- ========================================================= -->
 
-## `07 / CONTRIBUTION HEATMAP`
+## `05 / CONTRIBUTION HEATMAP`
 
 <div align="center">
 
@@ -296,7 +296,7 @@ A growing collection of Java solutions focused on strengthening problem-solving 
 
 <!-- ========================================================= -->
 
-## `08 / ENGINEERING DIRECTION`
+## `06 / ENGINEERING DIRECTION`
 
 <div align="center">
 
@@ -367,7 +367,7 @@ Scrum |
 
 <!-- ========================================================= -->
 
-## `09 / GITHUB TELEMETRY`
+## `07 / GITHUB TELEMETRY`
 
 <div align="center">
 
@@ -381,14 +381,6 @@ alt="GitHub telemetry"
 
 <br>
 
-<div align="center">
-
-<img
-src="https://www.gitskins.com/api/section/stack?username=FrederikSkipper&theme=github-dark&style=aura"
-width="96%"
-alt="Repository language telemetry"
-/>
-
 </div>
 
 ---
@@ -399,7 +391,7 @@ alt="Repository language telemetry"
 
 <!-- ========================================================= -->
 
-## `10 / CURRENT OBJECTIVE`
+## `08 / CURRENT OBJECTIVE`
 
 <div align="center">
 
