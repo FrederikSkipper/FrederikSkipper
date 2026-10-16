@@ -135,7 +135,6 @@ My main direction is:
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate" />
   <img src="https://img.shields.io/badge/Lombok-BC2525?style=for-the-badge&logo=java&logoColor=white" alt="Lombok" />
-  <img src="https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=.net&logoColor=white" alt="Entity Framework" />
 </p>
 
 
@@ -144,12 +143,14 @@ My main direction is:
   <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
   <img src="https://img.shields.io/badge/Junit5-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit5" />
   <img src="https://img.shields.io/badge/Mockito-C21325?style=for-the-badge&logo=java&logoColor=white" alt="Mockito" />
+  <img src="https://img.shields.io/badge/xUnit-512BD4?style=for-the-badge" alt="xUnit Badge" />
 </p>
 
 <h3><code> DEVOPS & TOOLS </code></h3>
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Swagger_UI-%23C4F1BE.svg?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger UI">
 </p>
 
 <h3><code> LANGUAGES </code></h3>
