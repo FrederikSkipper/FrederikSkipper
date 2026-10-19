@@ -185,59 +185,6 @@ My main direction is:
 
 </div>
 
-<br>
-
-<table width="100%">
-<tr>
-
-<td width="50%" valign="top">
-
-### `BACKEND`
-
-```text
-
-JAVA
-├── Spring Boot
-├── REST APIs
-├── Controllers
-├── Services
-├── Repositories
-├── DTOs
-├── Entities
-├── Dependency Injection
-├── ORM / JPA
-└── Authentication
-
-C#
-└── .NET / Minimal APIs
-```
-
-</td>
-
-<td width="50%" valign="top">
-
-### `ENGINEERING`
-
-```text
-
-OBJECT-ORIENTED DESIGN
-DATABASE DESIGN
-API DESIGN
-DATA STRUCTURES
-DESIGN PATTERNS
-TESTING
-VERSION CONTROL
-AGILE / SCRUM
-SYSTEM DEVELOPMENT
-```
-
-</td>
-
-</tr>
-</table>
-
----
-
 <!-- ========================================================= -->
 
 <!-- 03 — EXPLORING                                           -->
@@ -321,86 +268,8 @@ A growing collection of Java solutions focused on strengthening problem-solving 
 
 ---
 
-<!-- ========================================================= -->
 
-<!-- 07 — CONTRIBUTION SNAKE                                   -->
-
-<!-- ========================================================= -->
-
-
-## `05 / ENGINEERING DIRECTION`
-
-<div align="center">
-
-</div>
-
-<br>
-
-<table>
-<tr>
-
-<td align="center" width="25%">
-
-### `01`
-
-**BACKEND**
-
-| APIs |
- Business Logic |
- Services |
- Authentication |
-
-</td>
-
-<td align="center" width="25%">
-
-### `02`
-
-**SYSTEMS**
-
-| Architecture |
- OOP |
- Design Patterns |
-
-</td>
-
-<td align="center" width="25%">
-
-### `03`
-
-**DATA**
-
-| PostgreSQL |
- ORM / JPA |
- Database Design |
-
-</td>
-
-<td align="center" width="25%">
-
-### `04`
-
-**QUALITY**
-
-| Unit Testing |
-Integration Testing |
-Scrum |
-
-</td>
-
-</tr>
-</table>
-
----
-
-<!-- ========================================================= -->
-
-<!-- 08 — ENGINEERING DIRECTION                                -->
-
-<!-- ========================================================= -->
-
-
-## `06 / CONTRIBUTION HEATMAP`
+## `05 / CONTRIBUTION HEATMAP`
 
 <div align="center">
 
@@ -434,7 +303,7 @@ Scrum |
 
 <!-- ========================================================= -->
 
-## `07 / GITHUB TELEMETRY`
+## `06 / GITHUB TELEMETRY`
 
 <div align="center">
 
@@ -468,7 +337,7 @@ alt="GitHub telemetry"
 
 <!-- ========================================================= -->
 
-## `08 / CURRENT OBJECTIVE`
+## `07 / CURRENT OBJECTIVE`
 
 <div align="center">
 
