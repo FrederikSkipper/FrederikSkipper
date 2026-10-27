@@ -52,15 +52,14 @@ alt="Profile highlights"
 
 <td width="55%" valign="top">
 
-### `> WHO AM I?`
-
-Software Engineering student at **Aalborg University** with a strong interest in backend engineering, object-oriented programming, system development and database systems.
+### `> Direction`
 
 My main direction is:
 
-* Backend engineering
+* Backend
 * Object-oriented programming
 * System development
+* System design
 * Database systems
 * APIs & business logic
 * Testing & maintainability
