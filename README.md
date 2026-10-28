@@ -6,26 +6,12 @@
 
 <div align="center">
 
-<img
-src="https://www.gitskins.com/api/section/hero?username=FrederikSkipper&theme=github-dark&style=aura"
-width="100%"
-alt="Frederik Skipper — GitHub profile hero"
-/>
+<img src="https://www.gitskins.com/api/readme-reference/hero?username=frederikskipper&theme=neon&role=BSc%20Software%20Student%20@AAU&location=Building%20from%20the%20open%20web&v=readme-reference-2" width="100%" alt="frederikskipper profile banner" />
 
-</div>
+<br/>
 
-<br>
+<a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Orbitron&weight=600&size=26&pause=900&color=7DF9FF&center=true&vCenter=true&width=900&height=66&lines=SOFTWARE+ENGINEERING+STUDENT;BACKEND+%2F+SYSTEMS+%2F+DATABASES;OBJECT-ORIENTED+DEVELOPMENT;" alt="" /></a>
 
-<div align="center">
-
-<img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=SOFTWARE+ENGINEERING+STUDENT;BACKEND+%2F+SYSTEMS+%2F+DATABASES;OBJECT-ORIENTED+DEVELOPMENT;BUILDING+SYSTEMS+ONE+COMMIT+AT+A+TIME"
-alt="Software engineering introduction"
-/>
-
-</div>
-
-<br>
 
 <!-- ========================================================= -->
 
@@ -36,12 +22,6 @@ alt="Software engineering introduction"
 ## `01 / PROFILE`
 
 <div align="center">
-
-<img
-src="https://www.gitskins.com/api/section/highlights?username=FrederikSkipper&theme=github-dark&style=aura"
-width="96%"
-alt="Profile highlights"
-/>
 
 </div>
 
@@ -101,6 +81,8 @@ My main direction is:
 <!-- 02 — ENGINEERING STACK                                    -->
 
 <!-- ========================================================= -->
+
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
 ## `02 / ENGINEERING STACK`
 
@@ -190,6 +172,8 @@ My main direction is:
 
 <!-- ========================================================= -->
 
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
+
 ## `03 / EXPLORING`
 
 <div align="center">
@@ -221,6 +205,8 @@ My main direction is:
 <!-- 04 — ACTIVE DEVELOPMENT                                   -->
 
 <!-- ========================================================= -->
+
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
 ## `04 / ACTIVE DEVELOPMENT`
 
@@ -267,6 +253,7 @@ A growing collection of Java solutions focused on strengthening problem-solving 
 
 ---
 
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
 ## `05 / CONTRIBUTION HEATMAP`
 
@@ -304,6 +291,8 @@ A growing collection of Java solutions focused on strengthening problem-solving 
 
 ## `06 / GITHUB TELEMETRY`
 
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
+
 <div align="center">
 
 <img
@@ -335,6 +324,8 @@ alt="GitHub telemetry"
 <!-- 10 — CURRENT OBJECTIVE                                   -->
 
 <!-- ========================================================= -->
+
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
 ## `07 / CURRENT OBJECTIVE`
 
