@@ -19,13 +19,11 @@
 
 <!-- ========================================================= -->
 
-## `01 / PROFILE`
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
+
+### `01 / PROFILE`
 
 <div align="center">
-
-</div>
-
-<br>
 
 <table>
 <tr>
@@ -74,8 +72,6 @@ My main direction is:
 </tr>
 </table>
 
----
-
 <!-- ========================================================= -->
 
 <!-- 02 — ENGINEERING STACK                                    -->
@@ -84,7 +80,7 @@ My main direction is:
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## `02 / ENGINEERING STACK`
+### `02 / ENGINEERING STACK`
 
 
 <div align="left">
@@ -174,7 +170,7 @@ My main direction is:
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## `03 / EXPLORING`
+### `03 / EXPLORING`
 
 <div align="center">
 
@@ -198,7 +194,6 @@ My main direction is:
 
 </div>
 
----
 
 <!-- ========================================================= -->
 
@@ -208,7 +203,7 @@ My main direction is:
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## `04 / ACTIVE DEVELOPMENT`
+### `04 / ACTIVE DEVELOPMENT`
 
 <div align="center">
 
@@ -251,11 +246,10 @@ alt="Open LeetCode repository"
 
 A growing collection of Java solutions focused on strengthening problem-solving and algorithmic foundations.
 
----
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## `05 / CONTRIBUTION HEATMAP`
+### `05 / CONTRIBUTION HEATMAP`
 
 <div align="center">
 
@@ -281,7 +275,6 @@ A growing collection of Java solutions focused on strengthening problem-solving 
 
 </div>
 
----
 
 <!-- ========================================================= -->
 
@@ -289,7 +282,7 @@ A growing collection of Java solutions focused on strengthening problem-solving 
 
 <!-- ========================================================= -->
 
-## `06 / GITHUB TELEMETRY`
+### `06 / GITHUB TELEMETRY`
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
@@ -317,7 +310,6 @@ alt="GitHub telemetry"
 
 </div>
 
----
 
 <!-- ========================================================= -->
 
@@ -327,7 +319,7 @@ alt="GitHub telemetry"
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=frederikskipper&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## `07 / CURRENT OBJECTIVE`
+### `07 / CURRENT OBJECTIVE`
 
 <div align="center">
 
